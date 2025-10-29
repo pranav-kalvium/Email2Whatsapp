@@ -10,7 +10,6 @@ def main():
     print("📧 A beautiful app will open in your browser shortly!")
     print("⏳ Please wait...")
     
-    # Run the Streamlit app using subprocess (works with all Streamlit versions)
     try:
         subprocess.run([sys.executable, "-m", "streamlit", "run", "src/main.py"])
     except KeyboardInterrupt:
