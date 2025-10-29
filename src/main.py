@@ -4,7 +4,6 @@ import random
 import sys
 import os
 
-# Add the src folder to the path so we can import our modules
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from email_client import EmailClient
