@@ -123,7 +123,7 @@ def check_achievements():
     elif st.session_state.service_running:
         achievements.append("🎮 Demo Mode Active!")
     
-    # Add new achievements only
+    
     for achievement in achievements:
         if achievement not in st.session_state.achievements:
             st.session_state.achievements.append(achievement)
