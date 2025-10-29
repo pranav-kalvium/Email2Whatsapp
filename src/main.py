@@ -134,7 +134,7 @@ def process_real_emails():
         if not st.session_state.email_client or not st.session_state.whatsapp_sender:
             return 0
             
-        # Get unread emails
+        
         unread_emails = st.session_state.email_client.get_unread_emails(limit=5)
         
         if not unread_emails:
